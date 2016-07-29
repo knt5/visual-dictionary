@@ -1,2 +1,3 @@
-# visual-dictionary
-Visual dictionary
+# Visual dictionary
+
+Visual English-Japanese dictionary
