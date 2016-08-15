@@ -1,0 +1,3 @@
+{
+	"extends": "./gulp/modules/lint-js/eslintrc.js"
+}
