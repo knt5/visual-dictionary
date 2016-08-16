@@ -4,6 +4,6 @@ const build = require('../build-js/config');
 
 module.exports = (done) => {
 	gulp.watch(lint.src, ['lint:js']);
-	gulp.watch(build.watch, ['build:js']);
+	gulp.watch(build.watch.src, ['build:js']);
 	done();
 };
