@@ -30,7 +30,6 @@ module.exports = (done) => {
 				gulp.src(config.mustache.dest + name + '.html')
 				.pipe(plumber())
 				.pipe(htmlmin({
-					collapseWhitespace: true,
 					removeComments: true
 				}))
 				.pipe(gulp.dest(config.minify.dest))
