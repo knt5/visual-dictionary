@@ -2,5 +2,5 @@ const gulp = require('gulp');
 const build = require('../build-html/config');
 
 module.exports = () => {
-	gulp.watch(build.watch, ['build:html']);
+	gulp.watch(build.watch.src, ['build:html']);
 };
