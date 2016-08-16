@@ -1,1 +1,1 @@
-// import './stage';
+import './init';
