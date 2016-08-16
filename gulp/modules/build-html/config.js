@@ -1,6 +1,6 @@
 module.exports = {
 	src: [
-		'src/html/index.mustache'
+		'src/html/index/index.mustache'
 	],
 	watch: {
 		src: [
