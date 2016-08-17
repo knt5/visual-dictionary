@@ -5,8 +5,7 @@ module.exports = {
 		'es6',
 		'jquery'
 	],
-	globals: {
-	},
+	// globals: {},
 	parserOptions: {
 		sourceType: 'module'
 	},
