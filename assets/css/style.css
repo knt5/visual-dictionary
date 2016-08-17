@@ -15,12 +15,13 @@ body, img, dl, dt, dd, ol, ul, li {
 }
 
 body {
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.4;
 	-webkit-text-size-adjust: 100%;  /* for iOS Safari */
 }
 
 body, input, select, textarea, th, td {
+	font-size: 16px;
 	font-family: "Myriad Pro", "Lucida Grande", "GillSans", "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
 }
 
@@ -38,7 +39,25 @@ h1 {
 
 /* =================== style =================== */
 
+.keyword {
+	display: block;
+	width: 100%;
+	padding: 6px;
+}
 
+.text-frame {
+	display: block;
+	float: left;
+	width: 50%;
+	min-height: 50px;
+}
+
+.image-frame {
+	display: block;
+	float: left;
+	width: 50%;
+	min-height: 50px;
+}
 
 /* =================== style:media =================== */
 @media (max-width: 480px) {
