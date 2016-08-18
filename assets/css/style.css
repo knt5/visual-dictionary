@@ -49,14 +49,14 @@ h1 {
 	display: block;
 	float: left;
 	width: 50%;
-	min-height: 50px;
+	min-height: 300px;
 }
 
 .image-frame {
 	display: block;
 	float: left;
 	width: 50%;
-	min-height: 50px;
+	min-height: 300px;
 }
 
 /* =================== style:media =================== */
